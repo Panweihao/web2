@@ -1,0 +1,106 @@
+/*
+* @Author: DELL
+* @Date:   2019-12-11 18:45:44
+* @Last Modified by:   DELL
+* @Last Modified time: 2019-12-11 22:44:12
+*/
+*{
+	padding: 0;
+	margin:  0;
+}
+ul,li{
+	list-style: none;
+}
+.bigbox{
+	width: 1300px;
+	height: 497px;
+	border-left: 2px solid;
+	border-right: 2px solid;
+	margin: 50px auto;
+	position: relative;
+	overflow: hidden;
+}
+.box{
+	width: 1200px;
+	height: 397px;
+	border: 0;
+	margin:50px auto;
+	margin-top: 10px;
+	position: relative;
+	overflow: hidden;
+}
+.top{
+	height: 20px;
+	background: #ccc;
+}
+.img{
+	width: 20px;
+	display: block;
+	float: left;
+	position: relative;
+	left: 200px;
+}
+.tip{
+	width: 800px;
+	height: 16px;
+	float: left;
+	position: relative;
+	overflow: hidden;
+	left: 210px;
+}
+.tpp{
+	font-size: 12px;
+	width: 333px;
+	position: absolute;
+	left: 800px;
+	color: red;
+}
+.slider{
+	width: 8400px;
+	position: absolute;
+	left: -1200px;
+}
+.slide{
+	width: 1200px;
+	overflow: hidden;
+	float: left;
+}
+.box>span{
+	display: block;
+	width: 30px;
+	height: 50px;
+	text-align: center;
+	cursor: pointer;
+	color: ;
+	top: 175px;
+	line-height: 50px;
+	background: rgb(255, 0, 0);
+	font-size: 30px;
+	position: absolute;
+	/* display:none; */
+	opacity: 0;
+}
+#left{
+	left: 30px;
+}
+#right{
+	right: 30px;
+}
+.nav{
+	position: absolute;
+	left: 500px;
+	bottom: 20px;
+}
+.nav>li{
+	float: left;
+	width: 20px;
+	height: 20px;
+	background: #ccc;
+	cursor: pointer;
+	margin: 0 10px;
+	border-radius: 50%;
+	text-align: center;
+}
+.nav .active{
+	background: red;
+}
